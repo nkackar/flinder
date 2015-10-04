@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
-ruby '2.2.3'
+ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.16'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 # Use postgresql as the database for Active Record
-gem 'pg'
+gem 'activerecord-jdbcpostgresql-adapter'
 gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0.3'
@@ -30,7 +30,7 @@ gem 'spring',        group: :development
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem 'puma'
+gem 'trinidad'
 
 gem 'twitter-bootstrap-rails', git: 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
