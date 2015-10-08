@@ -42,3 +42,4 @@ gem 'twitter-bootstrap-rails', git: 'git://github.com/seyhunak/twitter-bootstrap
 
 
 gem 'devise'
+gem 'omniauth-facebook'
