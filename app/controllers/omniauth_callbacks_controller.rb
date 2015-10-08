@@ -13,4 +13,8 @@ class OmniauthCallbacksController < ApplicationController
     end
   end
 
+  def failure
+  	render text: "Sorry we failed to log you in"
+  end
+
 end
